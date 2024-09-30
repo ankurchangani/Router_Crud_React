@@ -12,9 +12,13 @@ const Header = () => {
           <li>
             <Link to="/" className="hover:underline">Home</Link>
           </li>
-         
+
           <li>
             <Link to="/view-data" className="hover:underline">View Data</Link>
+          </li>
+
+          <li>
+            <Link to="/datatable" className="hover:underline">Data Table</Link>
           </li>
         </ul>
       </nav>

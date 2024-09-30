@@ -18,7 +18,6 @@ const ViewData = ({ handleEdit , setStorage , Storage }) => {
             <th className="px-4 py-2 border border-gray-300">#</th>
             <th className="px-4 py-2 border border-gray-300">Name</th>
             <th className="px-4 py-2 border border-gray-300">Email</th>
-            <th className="px-4 py-2 border border-gray-300">Student ID</th>
             <th className="px-4 py-2 border border-gray-300">Course</th>
             <th className="px-4 py-2 border border-gray-300">Message</th>
             <th className="px-4 py-2 border border-gray-300">Action</th>
@@ -30,7 +29,6 @@ const ViewData = ({ handleEdit , setStorage , Storage }) => {
               <td className="border px-4 py-2 text-center">{index + 1}</td>
               <td className="border px-4 py-2 text-center">{rec.name}</td>
               <td className="border px-4 py-2 text-center">{rec.email}</td>
-              <td className="border px-4 py-2 text-center">{rec.studentId}</td>
               <td className="border px-4 py-2 text-center">{rec.course}</td>
               <td className="border px-4 py-2 text-center">{rec.message}</td>
               <td className="border px-4 py-2 text-center">

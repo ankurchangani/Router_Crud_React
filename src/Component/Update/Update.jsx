@@ -4,7 +4,6 @@ const Update = ({ editData, handleUpdate }) => {
     const [updataData, setUpdataData] = useState({
         name: '',
         email: '',
-        studentId: '',
         course: '',
         message: ''
     });
@@ -59,17 +58,6 @@ const Update = ({ editData, handleUpdate }) => {
                     </div>
 
 
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700">Student ID</label>
-                        <input
-                            type="text"
-                            name="studentId"
-                            value={updataData.studentId}
-                            className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
-                            placeholder="Student ID"
-                            onChange={handleForm}
-                        />
-                    </div>
 
 
                     <div>
