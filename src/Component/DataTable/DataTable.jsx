@@ -17,6 +17,8 @@ const DataTable = ({ Storage, handleEdit, setStorage }) => {
         setStorage(removeData);
     };
     return (
+        <div className="container mx-auto mt-4">
+
         <TableContainer component={Paper} sx={{ maxHeight: 440 }}>
             <Table stickyHeader>
                 <TableHead>
@@ -59,6 +61,7 @@ const DataTable = ({ Storage, handleEdit, setStorage }) => {
                 </TableBody>
             </Table>
         </TableContainer>
+        </div>
     );
 };
 
